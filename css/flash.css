@@ -1,0 +1,32 @@
+/* 文字旋转 */
+
+/* 闪光 */
+.flash{
+    position: relative;
+    overflow: hidden;
+}
+.flash:hover:before{
+    transition:  1s;/*过渡,改变闪光的位置*/
+    left: 250px;
+}
+.flash:before{/*在图片之前插入闪光*/
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 250px;
+    top: 0;
+    left: -190px;
+    background-image: linear-gradient(to right,rgba(255,255,255,.2) 0,rgba(255,255,255,.5) 50%,rgba(255,255,255,.2) 100%);/*linear-gradient渐变效果*/
+    transform: skewX(-45deg);
+    /* 沿x轴倾斜 */
+}
+/* 图片缩放 */
+.box-bd img {
+    transition: 1s;
+}
+
+.box-bd img:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 20px rgba(0, 0, 0, .5);
+
+}

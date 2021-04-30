@@ -1,0 +1,336 @@
+.main {
+    width: 980px;
+    height: 455px;
+    margin-left: 219px;
+    margin-top: 10px;
+
+}
+
+.focus {
+    width: 721px;
+    height: 455px;
+    position: relative;
+    overflow: hidden;
+   
+}
+
+.focus ul {
+    left: 0;
+    top: 0;
+    position: absolute;
+    width: 800%;
+}
+
+.focus ul li {
+    float: left;
+}
+
+.arrow-l,
+.arrow-r {
+    display: none;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 24px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, .3);
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    z-index: 9;
+}
+
+.arrow-l {
+    left: 0;
+}
+
+.arrow-r {
+    right: 0;
+}
+
+.circle {
+    position: absolute;
+    bottom: 10px;
+    left: 50px;
+    background-color: rgba(0, 0, 0, .3);
+    padding: 3px 0;
+    border-radius: 7px;
+}
+
+.current {
+    background-color: #fff;
+}
+
+.circle li {
+    float: left;
+    width: 8px;
+    height: 8px;
+    border: 2px solid rgba(255, 255, 255, .5);
+    box-shadow: 0 0 5px #ccc;
+    border-radius: 50%;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.newsflash {
+    width: 250px;
+    height: 455px;
+
+}
+
+.news {
+    height: 163px;
+
+    border: 1px solid #ccc;
+
+}
+
+.news-hd {
+    height: 32px;
+    border-bottom: 1px dotted #ccc;
+    font-size: 14px;
+    line-height: 32px;
+    padding-left: 10px;
+
+
+}
+
+.news-hd a {
+    float: right;
+    margin-right: 12px;
+}
+
+.news-bd {
+    padding: 10px 0 0 15px;
+
+}
+
+.news-bd li {
+    height: 23px;
+}
+
+
+.lifeservice {
+    height: 208px;
+    border: 1px solid #ccc;
+}
+
+.lifeservice ul {
+    height: 100%;
+    display: grid;
+    grid-template: repeat(3, 1fr)/repeat(4, 1fr);
+
+
+}
+
+.lifeservice ul li {
+    border: 1px solid #ccc;
+    border-left: none;
+    border-top: none;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+}
+
+.lifeservice li a {
+    display: block;
+    height: 100%;
+}
+
+.lifeservice li a .service_ico {
+    display: block;
+    width: 24px;
+    height: 24px;
+    background: url(../img/icons.png) no-repeat;
+    margin: 10px 0;
+}
+
+.lifeservice li a .service_ico_huafei {
+    background-position: -17px -16px;
+}
+
+.lifeservice li a .service_ico_feiji {
+    background-position: -78px -16px;
+}
+
+.hot {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 12px;
+    height: 15px;
+    background: url(../img/sk.png) no-repeat;
+}
+
+.bargain {
+    height: 75px;
+    margin-top: 5px;
+}
+
+/* <!-- 推荐服务模块start --> */
+.recommend {
+    height: 163px;
+    background-color: pink;
+    margin-top: 10px;
+}
+
+.recommend-hd {
+    height: 163px;
+    width: 200px;
+    background-color: #5c5251;
+    text-align: center;
+}
+
+.recommend-hd img {
+    margin: 30px 0 10px 0;
+}
+
+.recommend-hd h3 {
+    font-size: 18px;
+    color: #fff;
+    font-weight: normal;
+}
+
+.recommend-bd {
+    width: 1000px;
+    height: 163px;
+    background-color: #ebebeb;
+
+}
+
+.recommend-bd li {
+    float: left;
+    width: 249px;
+    height: 145px;
+    border-right: 1px solid #ccc;
+    margin-top: 10px;
+}
+
+.recommend-bd .last {
+    border: none;
+}
+
+/* floor */
+.box-hd {
+    height: 30px;
+    border-bottom: solid 2px #c81623;
+    margin-top: 25px;
+}
+
+.box-hd h3 {
+    font-size: 18px;
+    color: #c81623;
+}
+
+.tab-list {
+    line-height: 30px;
+}
+
+.tab-list li {
+    float: left;
+
+}
+
+.tab-list li a {
+    margin: 0 15px;
+}
+
+.box-bd {
+    height: 360px;
+    /* background-color: pink; */
+}
+
+.w209 {
+    width: 209px;
+    background-color: #f9f9f9;
+}
+
+.w329 {
+    width: 329px;
+}
+
+.w219 {
+    width: 219px;
+    border-right: 1px solid #ccc;
+}
+
+.w220 {
+    width: 220px;
+    border-right: 1px solid #ccc;
+}
+
+.tab-con li {
+    height: 360px;
+    float: left;
+}
+
+.tab-con-item {
+    border-bottom: 1px solid #ccc;
+}
+
+.tab-con-list {
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.tab-con-list li {
+    width: 86px;
+    height: 32px;
+    line-height: 31px;
+    margin-left: 13px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    font-size: 12px;
+}
+
+
+
+/* 电梯导航 */
+.fixedtool {
+    position: fixed;
+    width: 66px;
+    top: 100px;
+    left: 50%;
+    margin-left: -610px;
+    transform: translateX(-100%);
+    background-color: #fff;
+
+}
+
+.fixedtool li {
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    font-style: 12px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+    transition: 1s;
+
+}
+
+.fixedtool li:hover {
+    transform: scale(1.2);
+
+}
+
+.fixedtool .current {
+    background-color: #c81623;
+    color: #fff;
+}
+/* 顶部导航 */
+#tbtn {
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    /* //固定定位设置 */
+    left: 50%;
+    margin-left: 610px;
+    bottom: 30px;
+    display: none;
+    background: url(http://img.mukewang.com/535e0dc100010e9c00400080.jpg) no-repeat left top;
+}
+
+#tbtn:hover {
+    background: url(http://img.mukewang.com/535e0dc100010e9c00400080.jpg) no-repeat 0 -39px;
+}
