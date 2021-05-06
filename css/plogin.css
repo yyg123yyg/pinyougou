@@ -1,0 +1,115 @@
+.w {
+    width: 1200px;
+    margin: auto;
+}
+
+.header {
+    height: 82px;
+    border-bottom: 2px solid #b1191a;
+
+}
+
+.logo {
+    padding-top: 15px;
+}
+
+.loginin {
+    width: 1198px;
+    height: 520px;
+    background-color: #ffffff;
+    border: solid 1px #dfdfdf;
+    margin-top: 20px;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradientBG 15s ease infinite;
+}
+@keyframes gradientBG {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.login {
+    width: 400px;
+    height: 400px;
+    margin: 40px auto 0;
+    background-color: rgba(0, 0, 0, .1);
+    border-radius: 20px;
+    
+    
+}
+
+.login ul {
+    padding-top: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+
+}
+
+.login li {
+    margin-bottom: 15px;
+}
+
+.login label {
+    display: inline-block;
+    width: 60px;
+    height: 36px;
+    line-height: 36px;
+    text-align: right;
+}
+
+
+.login .inp {
+    width: 238px;
+    height: 34px;
+    border: solid 1px #999999;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+
+.alogin {
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    background-color: red;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    margin-left: 70px;
+}
+.re{
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    background-color: red;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+}
+.b:hover{
+    background-color: skyblue;
+    color: white;
+}
+
+
+.footer {
+    text-align: center;
+    height: 120px;
+}
+
+.links {
+    margin-top: 20px;
+    height: 30px;
+}
+
+.copyright {
+    line-height: 20px;
+}
